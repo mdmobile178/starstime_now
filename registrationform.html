@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starstime_Now</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/starstime logo.png">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <img src="images/starstime logo.png" alt="" width="50">
+                <h1 class="logo"><span>Starstime</span>_Now</h1>
+            </div>
+
+            <div class="hamburger-menu">&#9776;</div>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registrationform.html">Registration Form</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Registration Form -->
+    <section id="rform">
+        <div class="container">
+            <div class="div-content1">
+                <h1>Football Development Program</h1>
+                <p>Starstime_Now Center Registration Form</p>
+            </div>
+
+            <div class="div-content2">
+                <form action="parent.html">
+                    <div class="form-group">
+                        <label for="player_name">Player's Name* Surname First</label>
+                        <input type="text" name="Surname_first" id="player_name" placeholder="Surname First," required pattern="^[a-zA-Z ]{8,15}$" title="8 to 15 character only">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="dob">Date of Birth*</label>
+                        <input type="date" name="dob" id="dob" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="address">Address*</label>
+                        <input type="text" name="address" id="address" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="school">School* Please state the school that the player is attending</label>
+                        <input type="search" id="school" name="school" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="jersey">Preferred name on jersey(First name or Surname only)</label>
+                        <input type="text" name="name on jersey" id="jersey" required>
+                    </div>
+    
+                    <div class="rform-football-classses">
+                        <label for="class">
+                            Kindly note that football classes are thrice a week. please* tick the program option of 
+                            your choice below:
+                        </label>
+                        <div class="checkboxes">
+                            <input type="checkbox" class="checkbox" required> <span>friday(5pm - 7pm)</span>
+                            <input type="checkbox" class="checkbox" required><span>saturday(5pm - 7pm)</span>
+                            <input type="checkbox" class="checkbox" required><span>Sunday(8am - 10am)</span>
+                        </div>
+                    </div>
+                        
+                    <!-- <div>
+                        <h3>Kindly note that registration fee of <span>N160,500.00</span>
+                             is <span>NOT</span> included and is billed separately.
+                        </h3>
+                    </div> -->
+    
+                    <div>
+                        <input class="btn" id="btn" type="submit" value="Next">
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer id="footer">
+    <section class="container">
+        <div class="row-">
+            <div class="tent">
+               <img src="/images/starstime logo.png" alt="" width="50">
+                <p>
+                    We run a variety of football training and study programmes where 
+                    football players can gain internationally recognised qualifications.
+                </p>
+            </div>
+            <div class="tent">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="registrationform.html">Registration Form</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="tent" id="tent">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li><img src="/images/icon2-removebg-preview(1).png" alt=""><span>+234 8108630424</span></li>
+                    <li><img src="/images/icon4.png" alt=""><span>Starstime_Now@yahoo.com</span></li>
+                    <li><img src="/images/icon1-removebg-preview.png" alt=""><span>52, Alexander Avenue Ikoyi, Lagos Nigeria.</span></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <p>Copyright &copy; 2024 Starstime_Now Football Academy. 
+            All Right Reserved Design by Mdmobile
+        </p>
+    </section>
+</footer>
+<!-- End Footer -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

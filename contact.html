@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starstime_Now</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/starstime logo.png">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <img src="images/starstime logo.png" alt="" width="50">
+                <h1 class="logo"><span>Starstime</span>_Now</h1>
+            </div>
+
+            <div class="hamburger-menu">&#9776;</div>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registrationform.html">Registration Form</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cform">
+        <form action="" id="contact" method="">
+            <h2>Contact form</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required pattern="^[a-zA-Z_]{3,8}$" title="8 character only">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section class="container">
+            <div class="row-">
+                <div class="tent">
+                   <img src="/images/starstime logo.png" alt="" width="50">
+                    <p>
+                        We run a variety of football training and study programmes where 
+                        football players can gain internationally recognised qualifications.
+                    </p>
+                </div>
+                <div class="tent">
+                    <h3>Quick links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="registrationform.html">Registration Form</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="tent" id="tent">
+                    <h3>Get in Touch</h3>
+                    <ul>
+                        <li><img src="/images/icon2-removebg-preview(1).png" alt=""><span>+234 8108630424</span></li>
+                        <li><img src="/images/icon4.png" alt=""><span>Starstime_Now@yahoo.com</span></li>
+                        <li><img src="/images/icon1-removebg-preview.png" alt=""><span>52, Alexander Avenue Ikoyi, Lagos Nigeria.</span></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <p>Copyright &copy; 2024 Starstime_Now Football Academy. 
+                All Right Reserved Design by Mdmobile
+            </p>
+        </section>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/script.js"></script>
+</body>
+</html>
