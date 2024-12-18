@@ -63,7 +63,7 @@ nav a{
 /* Hero section */
 main #hero{
     min-height: 500px;
-    /* background-image: url(../images/slide1.jpg); */
+    background-image: url(../images/slide1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
